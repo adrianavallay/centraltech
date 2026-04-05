@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Observe elements
   var animateElements = document.querySelectorAll(
-    '.service-card, .why__feature, .why__box, .location-card, .partner, .hero__card'
+    '.service-card, .why__feature, .why__box, .location-card, .partner-mini, .hero__card, .fulfillment__step, .ff-card, .flex-platform-card, .platform-card'
   );
   animateElements.forEach(function (el) {
     el.style.opacity = '0';
