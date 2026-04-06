@@ -580,17 +580,17 @@ ul { list-style: none; }
 }
 
 .flex-platform-card__logo {
-  width: 90px;
-  height: 90px;
+  width: 180px;
+  height: 180px;
   margin: 0 auto 12px;
 }
 .flex-platform-card__logo svg {
-  width: 90px;
-  height: 90px;
+  width: 180px;
+  height: 180px;
 }
 .flex-platform-card__logo img {
-  width: 90px;
-  height: 90px;
+  width: 180px;
+  height: 180px;
   object-fit: contain;
 }
 
