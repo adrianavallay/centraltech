@@ -80,6 +80,22 @@ document.addEventListener('DOMContentLoaded', function () {
     observer.observe(el);
   });
 
+  // --- Pickit scroll animations ---
+  var pickitObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('pickit-visible');
+        pickitObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+
+  var pickitElements = document.querySelectorAll('.pickit-animate');
+  pickitElements.forEach(function (el, i) {
+    el.style.transitionDelay = (i * 0.15) + 's';
+    pickitObserver.observe(el);
+  });
+
   // --- Contact form ---
   var contactForm = document.getElementById('contactForm');
   contactForm.addEventListener('submit', function (e) {
@@ -116,6 +132,36 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 3000);
   });
 
+  // --- Contact section scroll reveal ---
+  var revealObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right').forEach(function (el) {
+    revealObserver.observe(el);
+  });
+
+  // Staggered card reveal
+  var cardObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        var cards = entry.target.querySelectorAll('.contact__card');
+        cards.forEach(function (card) {
+          card.classList.add('revealed');
+        });
+        cardObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  var contactInfo = document.querySelector('.contact__info');
+  if (contactInfo) cardObserver.observe(contactInfo);
+
   // --- Active nav link on scroll ---
   var sections = document.querySelectorAll('section[id]');
   window.addEventListener('scroll', function () {
@@ -125,7 +171,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var bottom = top + section.offsetHeight;
       var id = section.getAttribute('id');
       var link = navMenu.querySelector('a[href="#' + id + '"]');
-      if (link) {
+      if (link && !link.classList.contains('btn')) {
         if (scrollPos >= top && scrollPos < bottom) {
           link.style.color = '#F27B20';
         } else {
