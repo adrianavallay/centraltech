@@ -276,6 +276,7 @@ ul { list-style: none; }
 .hero__platforms-logos {
   display: flex;
   gap: 12px;
+  align-items: center;
 }
 
 .platform-logo {
@@ -290,6 +291,14 @@ ul { list-style: none; }
   display: block;
   width: 120px;
   height: 40px;
+}
+.platform-logo img {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+.platform-logo--tn {
+  background: transparent !important;
 }
 
 .hero__visual {
@@ -571,13 +580,18 @@ ul { list-style: none; }
 }
 
 .flex-platform-card__logo {
-  width: 56px;
-  height: 56px;
+  width: 90px;
+  height: 90px;
   margin: 0 auto 12px;
 }
 .flex-platform-card__logo svg {
-  width: 56px;
-  height: 56px;
+  width: 90px;
+  height: 90px;
+}
+.flex-platform-card__logo img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
 }
 
 .flex-platform-card h4 {
