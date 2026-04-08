@@ -22,10 +22,16 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  // --- Navbar scroll effect ---
+  // --- Navbar scroll effect & Scroll Top button ---
   const navbar = document.getElementById('navbar');
+  const scrollTopBtn = document.getElementById('scrollTop');
   window.addEventListener('scroll', function () {
     navbar.classList.toggle('scrolled', window.scrollY > 20);
+    scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
+  });
+
+  scrollTopBtn.addEventListener('click', function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
   // --- Mobile menu toggle ---

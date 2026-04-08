@@ -60,6 +60,147 @@
   --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
 
+/* ========================================
+   DARK MODE — ALL CARDS (estilo fulfillment)
+   ======================================== */
+
+/* Hero */
+[data-theme="dark"] .hero {
+  background: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%);
+}
+[data-theme="dark"] .hero__title {
+  color: #FFFFFF;
+}
+[data-theme="dark"] .hero__subtitle {
+  color: rgba(255, 255, 255, 0.7);
+}
+[data-theme="dark"] .hero__platforms-label {
+  color: rgba(255, 255, 255, 0.6);
+}
+[data-theme="dark"] .hero__card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+}
+[data-theme="dark"] .hero__card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--orange);
+  box-shadow: 0 12px 40px rgba(242, 123, 32, 0.15);
+}
+[data-theme="dark"] .hero__card h3 {
+  color: #FFFFFF;
+}
+[data-theme="dark"] .hero__card p {
+  color: rgba(255, 255, 255, 0.65);
+}
+[data-theme="dark"] .hero__card--accent {
+  background: linear-gradient(135deg, var(--orange) 0%, var(--orange-dark) 100%);
+  border-color: transparent;
+}
+[data-theme="dark"] .hero__card--accent h3,
+[data-theme="dark"] .hero__card--accent p {
+  color: #FFFFFF;
+}
+[data-theme="dark"] .hero__card--dark {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+[data-theme="dark"] .hero__card--dark h3 {
+  color: #FFFFFF;
+}
+[data-theme="dark"] .hero__card--dark p {
+  color: rgba(255, 255, 255, 0.65);
+}
+[data-theme="dark"] .hero__card--dark .hero__card-icon {
+  background: var(--orange);
+  color: #FFFFFF;
+}
+[data-theme="dark"] .hero__card-icon {
+  color: #FFFFFF;
+}
+
+/* Plataformas */
+[data-theme="dark"] .platforms {
+  background: #0A0A0A;
+}
+[data-theme="dark"] .platform-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: none;
+}
+[data-theme="dark"] .platform-card:hover {
+  background: #FFFFFF;
+  border-color: var(--orange);
+  box-shadow: 0 12px 40px rgba(242, 123, 32, 0.15);
+}
+[data-theme="dark"] .platform-card h3 {
+  color: #1A1A1A;
+}
+[data-theme="dark"] .platform-card__desc {
+  color: #555555;
+}
+[data-theme="dark"] .partner-mini {
+  background: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+[data-theme="dark"] .partner-mini:hover {
+  background: #FFFFFF;
+  border-color: var(--orange);
+}
+
+/* Servicios */
+[data-theme="dark"] .service-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+[data-theme="dark"] .service-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--orange);
+  box-shadow: 0 12px 40px rgba(242, 123, 32, 0.15);
+}
+
+/* Why / Por qué elegirnos */
+[data-theme="dark"] .why__feature-icon {
+  color: #FFFFFF;
+}
+
+/* Contacto cards */
+[data-theme="dark"] .contact__card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+[data-theme="dark"] .contact__card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--orange);
+}
+
+/* Flex — card naranja: texto en blanco */
+[data-theme="dark"] .flex-section__big-card {
+  color: #FFFFFF;
+}
+[data-theme="dark"] .flex-section__big-label,
+[data-theme="dark"] .flex-section__big-title,
+[data-theme="dark"] .flex-section__stat-number,
+[data-theme="dark"] .flex-section__stat-label {
+  color: #FFFFFF;
+}
+
+/* Flex — cards logos ML y Tienda Nube: fondo blanco */
+[data-theme="dark"] .flex-platform-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+[data-theme="dark"] .flex-platform-card h4 {
+  color: #1A1A1A;
+}
+[data-theme="dark"] .flex-platform-card p {
+  color: #555555;
+}
+[data-theme="dark"] .flex-platform-card:hover {
+  background: #FFFFFF;
+  border-color: var(--orange);
+}
+
 html {
   scroll-behavior: smooth;
   font-size: 16px;
@@ -216,8 +357,8 @@ ul { list-style: none; }
 .theme-switch__slider {
   position: absolute;
   inset: 0;
-  background: var(--bg-secondary);
-  border: 1px solid var(--card-border);
+  background: var(--orange);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50px;
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -230,7 +371,7 @@ ul { list-style: none; }
   left: 2px;
   top: 50%;
   transform: translateY(-50%);
-  background: var(--orange);
+  background: #FFFFFF;
   border-radius: 50%;
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -240,7 +381,7 @@ ul { list-style: none; }
 }
 
 .theme-switch:hover .theme-switch__slider {
-  border-color: var(--orange);
+  box-shadow: 0 0 8px rgba(242, 123, 32, 0.4);
 }
 
 .theme-switch__icon {
@@ -249,27 +390,25 @@ ul { list-style: none; }
   height: 14px;
   top: 50%;
   transform: translateY(-50%);
-  transition: opacity 0.3s ease;
+  transition: color 0.4s ease;
 }
 
 .theme-switch__sun {
   left: 6px;
-  color: var(--orange);
-  opacity: 1;
+  color: #333333;
 }
 
 .theme-switch__moon {
   right: 6px;
-  color: var(--orange);
-  opacity: 0.4;
+  color: #333333;
 }
 
 [data-theme="dark"] .theme-switch__sun {
-  opacity: 0.4;
+  color: #333333;
 }
 
 [data-theme="dark"] .theme-switch__moon {
-  opacity: 1;
+  color: #333333;
 }
 
 .navbar__menu a {
@@ -1425,6 +1564,9 @@ ul { list-style: none; }
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-lg);
+  outline: 2px solid var(--orange);
+  outline-offset: 8px;
+  border-radius: var(--radius-lg);
 }
 
 .why__image {
@@ -1906,6 +2048,45 @@ a.contact__card-value:hover {
 .footer__bottom p {
   font-size: 0.8125rem;
   color: rgba(255, 255, 255, 0.4);
+}
+
+/* ========================================
+   SCROLL TOP
+   ======================================== */
+.scroll-top {
+  position: fixed;
+  bottom: 28px;
+  left: 28px;
+  width: 50px;
+  height: 50px;
+  background: rgba(242, 123, 32, 0.85);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(242, 123, 32, 0.3);
+  cursor: pointer;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, visibility 0.4s ease, transform 0.4s ease;
+}
+.scroll-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.scroll-top:hover {
+  background: rgba(242, 123, 32, 0.95);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 28px rgba(242, 123, 32, 0.45);
+}
+.scroll-top svg {
+  width: 22px;
+  height: 22px;
 }
 
 /* ========================================
