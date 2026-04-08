@@ -1056,9 +1056,13 @@ ul { list-style: none; }
   background: var(--white);
   border: 2px solid rgba(0, 0, 0, 0.06);
   border-radius: var(--radius-lg);
-  padding: 40px 32px;
+  padding: 24px 32px;
   text-align: center;
   transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .platform-card:hover {
   border-color: var(--orange);
@@ -1067,17 +1071,20 @@ ul { list-style: none; }
 }
 
 .platform-card__logo {
-  width: 200px;
+  width: 280px;
   height: 200px;
-  margin: 0 auto 20px;
+  margin: 0 auto 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .platform-card__logo svg {
-  width: 200px;
-  height: 200px;
+  width: 280px;
+  height: 280px;
 }
 .platform-card__logo img {
-  width: 200px;
-  height: 200px;
+  width: 280px;
+  height: 280px;
   object-fit: contain;
 }
 
