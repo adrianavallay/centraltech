@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Envíos, Devoluciones y Logística para eCommerce | pickit</title>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({ 'event': 'trackContentGroup', 'content_group': 'Sitio Institucional' });
+</script> 
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+          'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-PVK7FX6');</script>
+    <!-- End Google Tag Manager -->
+ 
+    <!-- Hotjar Tracking Code for Site pickit -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2692646, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+     
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Corporation",
+                "name": "Pickit",
+                "url": "https://pickit.com.ar/",
+                "logo": "https://pickit.com.ar/assets/PICKIT_NARANJA.svg",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "0800-345-3451",
+                    "contactType": "customer service",
+                    "areaServed": "AR",
+                    "availableLanguage": "es"
+                },
+                "sameAs": [
+                    "https://www.instagram.com/pickit.ar/",
+                    "https://www.facebook.com/pickitCercaTuyo/"
+                ]
+            }
+        </script>
+        
+
+    <script
+      src="https://browser.sentry-cdn.com/6.2.2/bundle.min.js"
+      integrity="sha384-SEu4bJkpht31dkOz4nRcKDxnisSU+Jc8WRSOnBSZJ2yVMlbk4sAKQSrBw6qBVzKR"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://browser.sentry-cdn.com/6.2.2/bundle.tracing.min.js"
+      integrity="sha384-6nyTKv8WQWCjiZcGvMp9ienPyVwBBfPhJk3/aiESxhtkGc0XtP6ZcB+vafBNfxTD"
+      crossorigin="anonymous"
+    ></script>
+    <base href="https://pickit.com.ar/" target="_self" />
+
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/sections.css" />
+    <link rel="stylesheet" href="./css/home/intro.css" />
+    <link rel="stylesheet" href="./css/home/benefits.css" />
+    <link rel="stylesheet" href="./css/home/how-it-works.css" />
+    <link rel="stylesheet" href="./css/home/network.css" />
+    <link rel="stylesheet" href="./css/home/services.css" />
+    <link rel="stylesheet" href="./css/home/want-to-be.css" />
+    <link rel="stylesheet" href="./css/home/e-commerce.css" />
+    <link rel="stylesheet" href="./css/home/partners.css" />
+    <link rel="stylesheet" href="./css/dropdown-menu.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="./css/chat.css" />
+    <link rel="stylesheet" href="./css/forms.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel=”alternate” href=”https://pickit.com.pe/” hreflang=”es-PE” />
+    <link rel=”alternate” href=”https://pickit.com.mx/” hreflang=”es-MX” />
+    <link rel=”alternate” href=”https://pickit.com.co/” hreflang=”es-CO” />
+    <link rel=”alternate” href=”https://pickit.cl/” hreflang=”es-CL” /> <link
+    rel=”alternate” href=”https://pickit.com.uy/” hreflang=”es-UY” /> <link
+    rel=”alternate” href=”https://pickit.com.ar/” hreflang=”es-AR” /> <link
+    rel=”alternate” href=”https://pickit.com.ar/” hreflang=”x-default” />
+    <link rel="canonicals" href="https://pickit.com.ar/" />
+
+    
+          <meta name="facebook-domain-verification" content="62wblhk7zyzwy352lupyzx8vdyvafq" />
+          
+    <meta name="description" content="¡Enviá tus pedidos de manera fácil y segura! Integrá pickit a tu ecommerce, tus clientes recibirán su pedido en minutos en cualquier parte de Argentina." />
+    <meta
+      name="google-site-verification"
+      content="3YbmInnsENHoLkIZa7VAeo11v-Wi44MEL36-Yb4VdEg"
+    />
+  </head>
+
+  <body data-country="AR" data-mode="prod">
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVK7FX6" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <script>
+      Sentry.init({
+        //dsn: "https://042ee5207f354c1886932f3fbabe731e@o550400.ingest.sentry.io/5679683",
+        environment: "PROD_AR",
+        integrations: [new Sentry.Integrations.BrowserTracing()],
+
+        // We recommend adjusting this value in production, or using tracesSampler
+        // for finer control
+        tracesSampleRate: 1.0,
+      });
+    </script>
+
+    <div class="_container_1hyau_53" id="main">
+      <header>
+
+  <div data-input="false" data-active class="_h-wrapper_4q3ij_1" id="header">
+    <div class="_h-container_4q3ij_45">
+      <div class="_input-arrow_4q3ij_355" id="input-arrow">
+        <div class="arrow">
+          <img src="assets/header/flecha-input.svg" alt='Flecha input'>
+        </div>
+      </div>
+      <a href="https://pickit.com.ar/">
+        <div class="_h-left_4q3ij_78">
+          <img
+  class="_h-icon-header_4q3ij_409"
+  id=""
+  data-src="assets/PICKIT_NARANJA.svg"
+  alt="PICKIT NARANJA"
+>
+        </div>
+        <div class="_h-left_4q3ij_78">
+          <img
+  class="_h-icon-header-2_4q3ij_439"
+  id=""
+  data-src="assets/PICKIT_NARANJA_2.svg"
+  alt="PICKIT NARANJA"
+>
+        </div>
+      </a>
+      <div class="_h-right_4q3ij_87">
+          <div class="_tracking-container_4q3ij_172">
+            <a href="https://tracking.pickit.net/" class="_tracking-button_4q3ij_176">Seguí tu envío</a>
+          </div>
+            
+        <nav>
+          <a id="servicios-logistica.html" class="menu-link" data-imettrics='servicios_logistica' href="servicios-logistica.html"
+          class="_h-active-link_4q3ij_142">
+          Servicios
+        </a>
+        <a id="quiero-ser-punto-pickit.html" class="menu-link" data-imettrics='quiero_ser_punto_pickit' href="quiero-ser-punto-pickit.html">
+            Quiero ser<br>
+            un punto pickit
+        </a>
+        <a id="pickit-para-ecommerce.html" class="menu-link" data-imettrics='pickit_para_ecommerce' href="pickit-para-ecommerce.html">
+          pickit en mi<br>
+          e-commerce
+        </a>
+        <a id="developers" class="menu-link" data-imettrics='developers' href="https://developers.pickit.net/">
+          Developers
+        </a>
+        </nav>
+        <div class="_cross-input_4q3ij_351" id="cross-input">
+          <img src="assets/header/cross-input.svg" alt='Cruz input'>
+        </div>
+        <div data-dropdown-menu
+          class="_h-hidden_4q3ij_359 _d-wrapper_pgufp_1"
+          id="menu">
+          <div data-dropdown-toggle-menu class="_d-icon_pgufp_136">
+            <div class="_h-selector_4q3ij_368">
+              <img
+  class=""
+  id="menu-icon"
+  data-src="assets/MENU2.svg"
+  alt="MENU"
+>
+            </div>
+          </div>
+          <div data-dropdown-cross class="_d-icon-cross_pgufp_156">
+            <div class="_h-selector_4q3ij_368">
+              <img
+  class="_h-icon-selector-cross_4q3ij_560"
+  id="cross-icon"
+  data-src="assets/Cruz_Naranja.svg"
+  alt="altCruz"
+>
+            </div>
+          </div>
+          <div data-dropdown-container class="_d-dropdown_pgufp_14 ">
+            <ul class="_d-menu_pgufp_101">
+              <nav>
+              <li><a id="servicios-logistica.html" href="servicios-logistica.html" class="menu-link" data-imettrics='servicios_logistica'>
+                  <div>
+                    <img
+  class=""
+  id="img-servicios-logistica.html"
+  data-src="assets/header/menu/Servicios.svg"
+  alt="MALETA"
+>
+                  </div>
+
+                  Servicios
+                </a></li>
+              <li><a id="quiero-ser-punto-pickit.html" href="quiero-ser-punto-pickit.html" class="menu-link" data-imettrics='quiero_ser_punto_pickit'>
+                  <div>
+                    <img
+  class=""
+  id="img-quiero-ser-punto-pickit.html"
+  data-src="assets/header/menu/Punto.svg"
+  alt="PUNTO PICKIT"
+>
+                  </div>
+
+                  <p>
+                    Quiero ser
+                      un punto pickit
+                  </p>
+                </a></li>
+              <li class="_li-adjusted_pgufp_110"><a id="pickit-para-ecommerce.html"
+                  href="pickit-para-ecommerce.html" class="menu-link" data-imettrics='pickit_para_ecommerce'>
+                  <div>
+                    <img
+  class=""
+  id="img-pickit-para-ecommerce.html"
+  data-src="assets/header/menu/E-commerce.svg"
+  alt="TIENDA PICKIT"
+>
+                  </div>
+
+                  <p>
+                    pickit en mi
+                      e-commerce
+                  </p>
+                </a></li>
+              <li><a id="developers" href="https://developers.pickit.net/" class="menu-link" data-imettrics='developers'>
+                  <div>
+                    <img
+  class=""
+  id="img-developers"
+  data-src="assets/header/menu/Developers.svg"
+  alt="COMPUTADORA"
+>
+                  </div>
+                  Developers
+                </a>
+              </li>
+            </nav>
+              <li id="lista" class="_lista_pgufp_208">
+                <div class="_container-country_pgufp_216">
+                  <div>
+                    <img
+  class=""
+  id=""
+  data-src="assets/header/AR_PIN.svg"
+  alt="Argentina"
+>
+                      <p>
+                        Argentina
+                      </p>
+                  </div>
+                  <img
+  class=""
+  id=""
+  data-src="assets/header/menu/flecha.svg"
+  alt="FLECHA"
+>
+                </div>
+                <ul data-lista id="menu-country-mobile">
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="_d-wrapper-country_pgufp_50">
+          <ul>
+            <li class="_h-selector-icon_4q3ij_601">
+              <div class="_d-wrapper-country_pgufp_50">
+                <div class="_d-icon_pgufp_136">
+                  <div class="_h-selector_4q3ij_368">
+                    <img
+  class=""
+  id=""
+  data-src="assets/header/AR_PIN.svg"
+  alt="Argentina"
+>
+                  </div>
+                </div>
+                <ul class="_container-country-icons_4q3ij_580">
+                  <li class="_container-triangle_4q3ij_565">
+                    <div id="triangle"></div>
+                  </li>
+                  <ul id="menu-country"
+                  class="_d-dropdown-country_pgufp_65 _d-adjusted_pgufp_36 "
+                  data-li="_li-country_pgufp_447"
+                  data-img="">
+                </ul>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script type="module" src="js/country-drop-down.js"></script>
+</header> <section
+  id="intro"
+  class="_i-section_1mp3y_1"
+>
+  <div class="_i-container_1mp3y_65">
+    <h1 class="_i-title_1mp3y_107">
+      Solucioná tu logística de la mejor manera.
+    </h1>
+    <h2 class="_i-desc_1mp3y_166">
+      Gestionamos tus envíos y devoluciones en todo el país. <br />
+      Facilitale a tus clientes la forma de recibir sus paquetes, pudiendo elegir su punto pickit más cercano o en la comodidad de su hogar.
+    </h2>
+
+    <a href="pickit-para-ecommerce.html" data-imettrics="id_homeLogisticButton">
+      <button class="_i-button_1mp3y_200">
+        Quiero integrar pickit
+      </button>
+    </a>
+    <div
+      class="_global-pact-card-mobile_1mp3y_24"
+    >
+      <div
+        class="_global-pact-img_1mp3y_42"
+      >
+        <img
+  class=""
+  id=""
+  data-src="assets/Global_Compact.svg"
+  alt="ENVIO PICKIT"
+>
+      </div>
+      <p class="_global-pact-text_1mp3y_37">
+        Desde 2022 formamos parte de <b>
+          Pacto Global
+        </b>
+      </p>
+    </div>
+  </div>
+  <div class="_global-pact-card_1mp3y_21">
+    <div class="_global-pact-img_1mp3y_42">
+      <img
+  class=""
+  id=""
+  data-src="assets/Global_Compact.svg"
+  alt="ENVIO PICKIT"
+>
+    </div>
+    <p class="_global-pact-text_1mp3y_37">
+      Desde 2022 formamos parte de <b>
+        Pacto Global
+      </b>
+    </p>
+  </div>
+  <video
+    class="_i-video_1mp3y_47 _hidden-md-sm-down_1hyau_92"
+    id="header-loop-video"
+    autoplay
+    muted
+    playinline
+    loop
+  >
+    <source src="assets/home/PICKIT_LOOP_WEB.webm" type="video/webm" />
+  </video>
+</section>
+
+<section id="how-it-works" class="_h-how-it-works-1_1ibjl_29">
+
+</section>
+<section id="how-it-works" class="_h-how-it-works-2_1ibjl_1">
+
+
+  <div class="_h-section_1ibjl_44">
+
+    <div class="_h-container_1ibjl_107">
+      <h2 class="_h-label_1ibjl_130">¿Cómo funciona pickit?</h2>
+      <div class="_h-chat-container_1ibjl_155">
+        <div>
+          <div>
+
+            <div class="_h-chat-card_1ibjl_224">
+              <p>
+                Integrá el servicio pickit a tu tienda y ofrecele a tus clientes una
+                <b>modalidad de envíos rápida, cómoda y segura.</b>
+              </p>
+            </div>
+          </div>
+          <div>
+
+            <div class="_h-chat-card_1ibjl_224">
+              <p>
+                <b>Buscamos los paquetes por tu depósito o punto drop off y los distribuimos </b>
+                al destino que haya preferido tu cliente.
+              </p>
+            </div>
+          </div>
+          <div>
+
+            <div class="_h-chat-card_1ibjl_224">
+              <p>
+                ¡Listo! Van a recibirlos
+                <b>dónde, cuándo, y cómo quieran.</b>
+              </p>
+            </div>
+          </div>
+          <div>
+
+            <div class="_h-chat-card_1ibjl_224">
+              <p>
+                Si quieren devolverlos, no te preocupes.
+                <b>También nos encargamos de tus devoluciones.</b>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<section id="services" class="_s-services_scfge_1">
+
+
+  <video autoplay muted playinline loop class="_s-video_scfge_198 _hidden-md-sm-down_1hyau_92">
+    <source src="assets/home/services_home.webm" type="video/webm">
+  </video>
+  <div class="_max-width_1hyau_59 _hidden-md-sm-down_1hyau_92 _s-reubicate_scfge_121">
+    <div class="_s-content_scfge_206">
+      <div class="_s-grid_scfge_144 _s-grid-bottom_scfge_157">
+        <div>
+          <h2>Devoluciones</h2>
+        </div>
+        <div>
+          <h2>Envío a punto</h2>
+        </div>
+        <div>
+          <h2>Envío a domicilio</h2>
+  
+        </div>
+  
+      </div>
+  
+      <div class="_s-grid_scfge_144 _s-grid-top_scfge_161">
+        <div>
+  
+          <p>Que un contratiempo no se convierta en problema. Nos encargamos de llevar los productos devueltos hasta tu depósito.</p>
+        </div>
+        <div>
+  
+          <p>Tus clientes pueden elegir el punto pickit más cercano y retirar su compra desde allí cuando quieran.</p>
+        </div>
+        <div>
+          <p>Para más comodidad, llevamos tus productos a domicilio, con un servicio logístico rápido y sencillo.</p>
+        </div>
+  
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="_hidden-md-sm-up2_1hyau_106 _s-wrapper_scfge_125">
+    <div class="_s-column_scfge_92">
+     
+      <div>
+        <h2>Devoluciones</h2>
+        <p>Que un contratiempo no se convierta en problema. Nos encargamos de llevar los productos devueltos hasta tu depósito.</p>
+      </div>
+
+      <div>
+        <h2>Envío a punto</h2>
+        <p>Tus clientes pueden elegir el punto pickit más cercano y retirar su compra desde allí cuando quieran.</p>
+      </div>
+
+
+      <div>
+        <h2>Envío a domicilio</h2>
+        <p>Para más comodidad, llevamos tus productos a domicilio, con un servicio logístico rápido y sencillo.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="_s-section_scfge_53">
+    <a id="cm-button-anchor" data-imettrics="id_knowMore" href="servicios-logistica.html">    
+      <button id="cm-button">Conocé más servicios</button>
+    </a>
+  </div>
+</section>
+
+<section id="benefits" class="_b-benefits-2_xqf8c_1">
+
+  <div class="_b-container_xqf8c_75">
+
+    <b class="_b-label_xqf8c_204">Beneficios</b>
+    <h2 class="_b-title_xqf8c_230">Con pickit es súper simple</h2>
+
+    <div>
+      <p class="_b-card-container_xqf8c_57">
+        Nos encargamos de tu 
+        <b>logística de principio a fin.</b>
+      </p>
+
+      <p class="_b-card-container_xqf8c_57">
+        <b>Adaptamos tu integración</b>
+        acorde a las necesidades de tu negocio.
+      </p>
+
+      <p class="_b-card-container_xqf8c_57">
+        Gestioná tus envíos y devoluciones, visualizando el
+        <b>seguimiento de tu paquete en tiempo real.</b>
+      </p>
+
+      <p class="_b-card-container_xqf8c_57">
+        Brindale
+        <b>visibilidad completa a tus clientes:</b>
+        notificaciones por correo, mensajes y tracking live.
+      </p>
+    </div>
+  </div>
+
+  <div class="_b-video-container_xqf8c_185 _hidden-md-sm-down_1hyau_92" id="video-box">
+    <video muted playinline class="_b-video_xqf8c_185" id="video">
+      <source src="assets/home/PICKIT_VIDEO_PRINCIPAL.webm" type="video/webm">
+    </video>
+  </div>
+
+  <script type="text/javascript">
+    const video = document.getElementById("video");
+
+    let observerV = new IntersectionObserver(function (entries, self) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          video.play();
+        }
+      });
+    }, );
+
+    const container = document.getElementById("video-box");
+
+    observerV.observe(container);
+    
+  </script>
+</section>
+
+<section id="network" class="_n-network_vnu5q_1">
+
+  <div class="_n-section_vnu5q_27">
+    <b class="_n-label_vnu5q_73">Red de puntos pickit</b>
+    <h2 class="_n-title_vnu5q_92">Conocé nuestra red de puntos pickit</h2>
+
+    <iframe loading="lazy" src="https://lightbox.pickit.com.ar/Institucional" class="_n-frame_vnu5q_42"
+      allow="geolocation *;"></iframe>
+  </div>
+
+</section>
+<section id="partners" class="_p-partners_1catl_1">
+
+  <div class="_p-section_1catl_31">
+
+    <h3 class="_p-title_1catl_39">Marcas que nos acompañan</h3>
+
+    <img
+  class="_partners-desktop_1catl_22"
+  id=""
+  data-src="assets/MarcasDesktop.svg"
+  alt="LOGO PICKIT"
+>
+    <img
+  class="_partners-mobile_1catl_13"
+  id=""
+  data-src="assets/MarcasMobile.svg"
+  alt="LOGO PICKIT"
+>
+  </div>
+  
+</section> <footer class="_f-footer_eze7e_1">
+  <!-- DESKTOP -->
+  <div
+    class="_f-footer-container_eze7e_27 _footer-desktop_1hyau_127"
+  >
+    <div class="_f-first-section_eze7e_45">
+      <!-- VIDEO -->
+      <video
+        class="_f-video_eze7e_8"
+        muted
+        playinline
+        loop
+        autoplay
+      >
+        <source src="assets/home/PICKIT_LOOP_CANGURO.webm" type="video/webm" />
+      </video>
+
+      <!-- LEFT -->
+      
+      <div class="_f-left-section_eze7e_60">
+      
+       
+        <div>
+          <div>
+            <a
+              href="pickit-manifiesto.html"
+              data-imettrics="who"
+              class="_f-link_eze7e_464"
+              >Quiénes somos</a
+            >
+          </div>
+          <div>
+            <a
+              href="pickit-manifiesto.html#staff"
+              data-imettrics="team"
+              class="_f-link_eze7e_464"
+              >Nuestro equipo</a
+            >
+          </div>
+          <div>
+            <a
+              href="https://pickit.bamboohr.com/careers"
+              target="_blank"
+              data-imettrics="part"
+              class="_f-link_eze7e_464"
+              >Quiero ser parte</a
+            >
+          </div>
+        </div>
+        
+        <div
+          class="_f-divider_eze7e_35 "
+        ></div>
+        <div>
+          <p>¿Necesitás ayuda?</p>
+          <a
+            class="_f-link_eze7e_464 _f-link-wpp_eze7e_480"
+            target="_blank"
+            href=https://wa.me/+5491123499000?text=¡Hola!+Tengo+una+consulta.
+            ><img src="assets/footer/whatsapp-logo.svg" alt="whatsapp-logo" /> +54 9 11 2349-9000</a
+          >
+        </div>
+        
+      </div>
+
+    </div>
+
+    <div class="_f-bottom-section_eze7e_179">
+      <div>
+        <img
+  class="_f-logo_eze7e_312"
+  id=""
+  data-src="assets/PICKIT_GRIS.svg"
+  alt="PICKIT GRIS"
+>
+      </div>
+
+      <div class="_f-text_eze7e_188">
+        <span class="_f-copyright_eze7e_191"
+          >Copyright © 2016 - 2026. Todos los derechos reservados.</span
+        >
+        <div class="_f-privacy_eze7e_197">
+          <a href="privacidad.html" style="text-decoration: none"
+            ><span>Políticas de privacidad</span></a
+          >
+          |
+          <a href="terminos-condiciones.html" style="text-decoration: none"
+            ><span>Términos y condiciones</span></a
+          >
+        </div>
+      </div>
+      <div class="_f-social-networks_eze7e_212">
+        <a href="https://m.facebook.com/pickit.latam/" target="_blank" data-imettrics="altFacebook">
+          <img
+  class=""
+  id="FB"
+  data-src="assets/FB.svg"
+  alt="Facebook"
+>
+        </a>
+        <a href="https://www.instagram.com/pickit.latam/" target="_blank" data-imettrics="altInstagram">
+          <img
+  class=""
+  id="IG"
+  data-src="assets/IG.svg"
+  alt="Instagram"
+>
+        </a>
+        <a href="https://www.linkedin.com/company/pickitoficial/" target="_blank" data-imettrics="altLinkedin">
+          <img
+  class=""
+  id="LKDN"
+  data-src="assets/LKDN.svg"
+  alt="Linkedin"
+>
+        </a>
+        <a
+        target="_blank"
+        class="_f-link_eze7e_464"
+        href=mailto:contacto.ar@pickit.net
+      >
+        <img src="assets/footer/email-icon.svg" alt="email pickit">
+      </a>
+      </div>
+      <!-- Solo Argentina -->
+      
+      <a
+        href="https://www.google.com/url?q=http://qr.afip.gob.ar/?qr%3DuA1hjbX1edcS0EnShet88w,,&amp;sa=D&amp;source=calendar&amp;ust=1654955155625367&amp;usg=AOvVaw3CTHSGHb5bTb11-tjNILUE"
+        target="_blank"
+        data-imettrics="altDataFiscal"
+        class="_f-fiscal-data_eze7e_203"
+      >
+        <img
+  class=""
+  id="DATAFISCAL"
+  data-src="assets/footer/data-fiscal.svg"
+  alt="DATA FISCAL"
+>
+      </a>
+      
+    </div>
+  </div>
+
+  <!-- MOBILE -->
+  <div
+    class="_footer-mobile_1hyau_120 _f-footer-container_eze7e_27"
+  >
+    <section class="_e-footer_nzy97_97">
+      <!-- MIDDLE FIRST SECTION -->
+      <div class="_f-left-section_eze7e_60">
+        <div class="_f-top-mobile_eze7e_393">
+          <div>
+            <a
+              href="pickit-manifiesto.html"
+              data-imettrics="who"
+              class="_f-link_eze7e_464"
+              >Quiénes somos</a
+            >
+          </div>
+          <p>|</p>
+          <div>
+            <a
+              href="pickit-manifiesto.html#staff"
+              data-imettrics="team"
+              class="_f-link_eze7e_464"
+              >Nuestro equipo</a
+            >
+          </div>
+          <p>|</p>
+          <div>
+            <a
+              href="https://pickit.bamboohr.com/careers"
+              target="_blank"
+              data-imettrics="part"
+              class="_f-link_eze7e_464"
+              >Quiero ser parte</a
+            >
+          </div>
+        </div>
+        
+        <div
+          class="_f-mobile-divider2_eze7e_442"
+        ></div>
+        <div></div>
+        <div class="_f-top-mobile2_eze7e_428">
+            <p>¿Necesitás ayuda?</p>
+            <a
+              class="_f-link_eze7e_464 _f-link-wpp_eze7e_480"
+              target="_blank"
+              href=https://wa.me/+5491123499000?text=¡Hola!+Tengo+una+consulta.
+              ><img src="assets/footer/whatsapp-logo.svg" alt="whatsapp-logo" /> +54 9 11 2349-9000</a
+            >
+          </div>
+          
+      </div>
+
+    </section>
+
+    <!-- BOTTOM SECTION -->
+    <div class="_f-bottom-section_eze7e_179">
+      <div
+        class="_f-bottom-top-section_eze7e_448"
+      >
+        <div>
+          <div>
+            <img
+  class="_f-logo_eze7e_312"
+  id=""
+  data-src="assets/PICKIT_GRIS.svg"
+  alt="PICKIT GRIS"
+>
+          </div>
+          
+          <div
+            class="_f-social-networks_eze7e_212"
+          >
+            <a
+              href="https://www.instagram.com/pickit.latam/"
+              target="_blank"
+              data-hover="assets/IG-Hover.svg"
+              data-start="assets/IG.svg"
+              data-imettrics="altInstagram"
+            >
+              <img
+  class=""
+  id="IG-mobile"
+  data-src="assets/IG.svg"
+  alt="Instagram"
+>
+            </a>
+            <a
+              href="https://m.facebook.com/pickit.latam/"
+              target="_blank"
+              data-hover="assets/FB-Hover.svg"
+              data-start="assets/FB.svg"
+              data-imettrics="altFacebook"
+            >
+              <img
+  class=""
+  id="FB-mobile"
+  data-src="assets/FB.svg"
+  alt="Facebook"
+>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/company/pickitoficial/"
+              target="_blank"
+              data-hover="assets/LKDN-Hover.svg"
+              data-start="assets/LKDN.svg"
+              data-imettrics="altLinkedin"
+            >
+              <img
+  class=""
+  id="LKDN-mobile"
+  data-src="assets/LKDN.svg"
+  alt="Linkedin"
+>
+            </a>
+            <a
+            target="_blank"
+        class="_f-link_eze7e_464"
+        href=mailto:contacto.ar@pickit.net
+          >
+           <img src="assets/footer/email-icon.svg" alt="email pickit">
+          </a>
+          </div>
+          
+        </div>
+      </div>
+      <div
+        class="_f-copyright-section_eze7e_248"
+      >
+        <span class="_f-copyright_eze7e_191"
+          >Copyright © 2016 - 2026. Todos los derechos reservados.</span
+        >
+        <div class="_f-privacy_eze7e_197">
+          <a href="privacidad.html" style="text-decoration: none"
+            ><span>Políticas de privacidad</span></a
+          >
+          |
+          <a href="terminos-condiciones.html" style="text-decoration: none"
+            ><span>Términos y condiciones</span></a
+          >
+        </div>
+      </div>
+      
+      <a
+        href="https://www.google.com/url?q=http://qr.afip.gob.ar/?qr%3DuA1hjbX1edcS0EnShet88w,,&amp;sa=D&amp;source=calendar&amp;ust=1654955155625367&amp;usg=AOvVaw3CTHSGHb5bTb11-tjNILUE"
+        target="_blank"
+        data-imettrics="altDataFiscal"
+        class="_f-fiscal-data_eze7e_203"
+      >
+        <img
+  class=""
+  id="DATAFISCAL"
+  data-src="assets/footer/data-fiscal.svg"
+  alt="DATA FISCAL"
+>
+      </a>
+      
+    </div>
+  </div>
+  <script type="module" src="js/imettrics.js" defer></script>
+</footer>
+ 
+    </div>
+  </body>
+
+  <script src="js/lazy-img.js"></script>
+  <script src="js/dropdown-menu.js"></script>
+  <script src="js/header.js"></script>
+  
+</html>

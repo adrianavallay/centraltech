@@ -27,6 +27,37 @@
   --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
   --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.12);
   --transition: 0.3s ease;
+
+  --bg-primary: var(--white);
+  --bg-secondary: var(--gray-100);
+  --text-primary: var(--gray-900);
+  --text-secondary: var(--gray-700);
+  --navbar-bg: rgba(255, 255, 255, 0.95);
+  --navbar-border: rgba(0, 0, 0, 0.06);
+  --card-bg: var(--white);
+  --card-border: rgba(0, 0, 0, 0.06);
+  --input-border: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0A0A0A;
+  --bg-secondary: #141414;
+  --text-primary: #E8E8E8;
+  --text-secondary: #A0A0A0;
+  --navbar-bg: rgba(10, 10, 10, 0.95);
+  --navbar-border: rgba(255, 255, 255, 0.06);
+  --card-bg: #141414;
+  --card-border: rgba(255, 255, 255, 0.08);
+  --input-border: rgba(255, 255, 255, 0.1);
+  --black: #E8E8E8;
+  --gray-900: #E8E8E8;
+  --gray-700: #A0A0A0;
+  --gray-500: #888888;
+  --gray-300: #333333;
+  --gray-100: #1A1A1A;
+  --white: #0A0A0A;
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
 
 html {
@@ -36,10 +67,11 @@ html {
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  color: var(--gray-900);
-  background: var(--white);
+  color: var(--text-primary);
+  background: var(--bg-primary);
   line-height: 1.6;
   overflow-x: hidden;
+  transition: background 0.4s ease, color 0.4s ease;
 }
 
 img { max-width: 100%; height: auto; }
@@ -73,7 +105,7 @@ ul { list-style: none; }
 
 .btn--primary {
   background: var(--orange);
-  color: var(--white);
+  color: #FFFFFF;
   border-color: var(--orange);
 }
 .btn--primary:hover {
@@ -99,7 +131,7 @@ ul { list-style: none; }
   font-size: 0.875rem;
   border-radius: 8px;
   background: var(--orange);
-  color: var(--white);
+  color: #FFFFFF;
   border-color: var(--orange);
 }
 .btn--small:hover {
@@ -125,10 +157,10 @@ ul { list-style: none; }
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(255, 255, 255, 0.95);
+  background: var(--navbar-bg);
   backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  transition: var(--transition);
+  border-bottom: 1px solid var(--navbar-border);
+  transition: background 0.4s ease, border-color 0.4s ease, box-shadow 0.3s ease;
 }
 
 .navbar.scrolled {
@@ -165,6 +197,59 @@ ul { list-style: none; }
   gap: 32px;
 }
 
+/* Theme Toggle */
+.theme-toggle {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid var(--card-border);
+  background: var(--bg-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.theme-toggle:hover {
+  border-color: var(--orange);
+  transform: scale(1.05);
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
+}
+
+.theme-toggle svg {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.theme-toggle__sun {
+  color: var(--orange);
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+}
+
+.theme-toggle__moon {
+  color: var(--orange);
+  opacity: 0;
+  transform: rotate(-90deg) scale(0.5);
+}
+
+[data-theme="dark"] .theme-toggle__sun {
+  opacity: 0;
+  transform: rotate(90deg) scale(0.5);
+}
+
+[data-theme="dark"] .theme-toggle__moon {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
+}
+
 .navbar__menu a {
   font-size: 0.9375rem;
   font-weight: 500;
@@ -175,7 +260,7 @@ ul { list-style: none; }
   color: var(--orange);
 }
 .navbar__menu a.btn {
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 .navbar__toggle {
@@ -358,7 +443,7 @@ ul { list-style: none; }
 
 .hero__card--accent {
   background: linear-gradient(135deg, var(--orange) 0%, var(--orange-dark) 100%);
-  color: var(--white);
+  color: #FFFFFF;
   border-color: transparent;
   padding: 36px;
 }
@@ -377,7 +462,7 @@ ul { list-style: none; }
 .hero__card--dark {
   background: var(--dark);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  color: var(--white);
+  color: #FFFFFF;
 }
 .hero__card--dark::before {
   background: var(--orange);
@@ -388,7 +473,7 @@ ul { list-style: none; }
   box-shadow: 0 12px 40px rgba(242, 123, 32, 0.15);
 }
 .hero__card--dark h3 {
-  color: var(--white);
+  color: #FFFFFF;
 }
 .hero__card--dark p {
   color: rgba(255, 255, 255, 0.7);
@@ -451,7 +536,7 @@ ul { list-style: none; }
 }
 .hero__card--accent h3,
 .hero__card--accent p {
-  color: var(--white);
+  color: #FFFFFF;
 }
 .hero__card--accent p {
   opacity: 0.9;
@@ -499,8 +584,8 @@ ul { list-style: none; }
    ======================================== */
 .fulfillment {
   padding: 100px 0;
-  background: var(--black);
-  color: var(--white);
+  background: #1A1A1A;
+  color: #FFFFFF;
 }
 
 .fulfillment__inner {
@@ -514,7 +599,7 @@ ul { list-style: none; }
   background: rgba(242, 123, 32, 0.2);
 }
 .fulfillment__content .section-title {
-  color: var(--white);
+  color: #FFFFFF;
 }
 .fulfillment__content .section-desc {
   color: rgba(255, 255, 255, 0.7);
@@ -1181,9 +1266,9 @@ ul { list-style: none; }
 }
 
 .service-card--featured {
-  background: var(--black);
-  color: var(--white);
-  border-color: var(--black);
+  background: #1A1A1A;
+  color: #FFFFFF;
+  border-color: #1A1A1A;
 }
 .service-card--featured .service-card__desc { color: rgba(255,255,255,0.7); }
 .service-card--featured .service-card__features li { color: rgba(255,255,255,0.8); }
@@ -1362,7 +1447,7 @@ ul { list-style: none; }
 }
 
 .coverage__cta-inner {
-  background: var(--black);
+  background: #1A1A1A;
   border-radius: var(--radius-lg);
   padding: 48px;
   display: flex;
@@ -1374,7 +1459,7 @@ ul { list-style: none; }
 .coverage__cta-inner h3 {
   font-size: 1.5rem;
   font-weight: 800;
-  color: var(--white);
+  color: #FFFFFF;
   margin-bottom: 8px;
 }
 .coverage__cta-inner p {
@@ -1465,7 +1550,7 @@ ul { list-style: none; }
    ======================================== */
 .contact {
   padding: 100px 0;
-  background: var(--black);
+  background: #1A1A1A;
   position: relative;
   overflow: hidden;
 }
@@ -1492,7 +1577,7 @@ ul { list-style: none; }
 }
 
 .contact .section-title {
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 .contact .section-desc {
@@ -1734,8 +1819,8 @@ a.contact__card-value:hover {
    FOOTER
    ======================================== */
 .footer {
-  background: var(--black);
-  color: var(--white);
+  background: #1A1A1A;
+  color: #FFFFFF;
   padding: 60px 0 0;
 }
 
@@ -1756,12 +1841,12 @@ a.contact__card-value:hover {
 
 .footer__logo-central {
   font-weight: 500;
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 .footer__logo-tech {
   font-weight: 900;
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 .footer__brand p {

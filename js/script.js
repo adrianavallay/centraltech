@@ -4,6 +4,24 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
+  // --- Theme toggle (dark/light) ---
+  var themeToggle = document.getElementById('themeToggle');
+  var savedTheme = localStorage.getItem('ct-theme');
+  if (savedTheme) {
+    document.documentElement.setAttribute('data-theme', savedTheme);
+  }
+
+  themeToggle.addEventListener('click', function () {
+    var current = document.documentElement.getAttribute('data-theme');
+    var next = current === 'dark' ? 'light' : 'dark';
+    if (next === 'light') {
+      document.documentElement.removeAttribute('data-theme');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+    localStorage.setItem('ct-theme', next);
+  });
+
   // --- Navbar scroll effect ---
   const navbar = document.getElementById('navbar');
   window.addEventListener('scroll', function () {
