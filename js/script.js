@@ -139,21 +139,11 @@ document.addEventListener('DOMContentLoaded', function () {
     if (servicio) text += 'Servicio: ' + servicio + '\n';
     if (mensaje) text += 'Mensaje: ' + mensaje + '\n';
 
-    // For now, show a success message
-    var btn = contactForm.querySelector('button[type="submit"]');
-    var originalText = btn.textContent;
-    btn.textContent = 'Consulta enviada!';
-    btn.style.background = '#25D366';
-    btn.style.borderColor = '#25D366';
-    btn.disabled = true;
+    // Send to WhatsApp
+    var whatsappUrl = 'https://wa.me/5491137968691?text=' + encodeURIComponent(text);
+    window.open(whatsappUrl, '_blank');
 
-    setTimeout(function () {
-      btn.textContent = originalText;
-      btn.style.background = '';
-      btn.style.borderColor = '';
-      btn.disabled = false;
-      contactForm.reset();
-    }, 3000);
+    contactForm.reset();
   });
 
   // --- Contact section scroll reveal ---
