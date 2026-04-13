@@ -2,6 +2,15 @@
 // CENTRAL TECH - Landing Page Scripts
 // ========================================
 
+// --- Bloqueo de clic derecho, arrastrar imágenes y atajos de teclado ---
+document.addEventListener('contextmenu', function (e) { e.preventDefault(); });
+document.addEventListener('dragstart', function (e) { if (e.target.tagName === 'IMG') e.preventDefault(); });
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J' || e.key === 'C')) || (e.ctrlKey && e.key === 'u') || (e.ctrlKey && e.key === 's')) {
+    e.preventDefault();
+  }
+});
+
 document.addEventListener('DOMContentLoaded', function () {
 
   // --- Theme switch (dark/light) ---
