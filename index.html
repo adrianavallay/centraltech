@@ -616,6 +616,15 @@
             <label for="mensaje">Mensaje</label>
             <textarea id="mensaje" name="mensaje" rows="4" placeholder="Contanos sobre tu negocio y qué necesitás..."></textarea>
           </div>
+          <!-- Honeypot anti-bot (campo oculto) -->
+          <div style="position:absolute;left:-9999px;" aria-hidden="true">
+            <input type="text" name="website" id="honeypot" tabindex="-1" autocomplete="off">
+          </div>
+          <!-- Captcha matemático -->
+          <div class="form-group">
+            <label for="captcha" id="captchaLabel">Verificación: ¿Cuánto es 3 + 4?</label>
+            <input type="text" id="captcha" name="captcha" placeholder="Tu respuesta" required autocomplete="off">
+          </div>
           <button type="submit" class="btn btn--primary btn--lg btn--full contact__submit">
             <span>Enviar consulta</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>

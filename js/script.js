@@ -129,16 +129,44 @@ document.addEventListener('DOMContentLoaded', function () {
     pickitObserver.observe(el);
   });
 
+  // --- Sanitización de inputs ---
+  function sanitize(str) {
+    var div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  // --- Captcha matemático dinámico ---
+  var captchaA = Math.floor(Math.random() * 9) + 1;
+  var captchaB = Math.floor(Math.random() * 9) + 1;
+  var captchaResult = captchaA + captchaB;
+  var captchaLabel = document.getElementById('captchaLabel');
+  if (captchaLabel) {
+    captchaLabel.textContent = 'Verificación: ¿Cuánto es ' + captchaA + ' + ' + captchaB + '?';
+  }
+
   // --- Contact form ---
   var contactForm = document.getElementById('contactForm');
   contactForm.addEventListener('submit', function (e) {
     e.preventDefault();
 
-    var nombre = document.getElementById('nombre').value;
-    var email = document.getElementById('email').value;
-    var telefono = document.getElementById('telefono').value;
-    var servicio = document.getElementById('servicio').value;
-    var mensaje = document.getElementById('mensaje').value;
+    // Honeypot check (si se llenó, es un bot)
+    var honeypot = document.getElementById('honeypot');
+    if (honeypot && honeypot.value) return;
+
+    // Captcha check
+    var captchaInput = document.getElementById('captcha');
+    if (!captchaInput || parseInt(captchaInput.value) !== captchaResult) {
+      alert('La respuesta de verificación es incorrecta. Intentá de nuevo.');
+      captchaInput.focus();
+      return;
+    }
+
+    var nombre = sanitize(document.getElementById('nombre').value);
+    var email = sanitize(document.getElementById('email').value);
+    var telefono = sanitize(document.getElementById('telefono').value);
+    var servicio = sanitize(document.getElementById('servicio').value);
+    var mensaje = sanitize(document.getElementById('mensaje').value);
 
     // Build WhatsApp message
     var text = 'Hola! Me contacto desde la web de CentralTech.\n\n';
@@ -153,6 +181,12 @@ document.addEventListener('DOMContentLoaded', function () {
     window.open(whatsappUrl, '_blank');
 
     contactForm.reset();
+
+    // Regenerar captcha
+    captchaA = Math.floor(Math.random() * 9) + 1;
+    captchaB = Math.floor(Math.random() * 9) + 1;
+    captchaResult = captchaA + captchaB;
+    captchaLabel.textContent = 'Verificación: ¿Cuánto es ' + captchaA + ' + ' + captchaB + '?';
   });
 
   // --- Contact section scroll reveal ---
