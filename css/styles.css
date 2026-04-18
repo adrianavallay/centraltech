@@ -644,7 +644,8 @@ ul { list-style: none; }
   color: #FFFFFF;
 }
 .hero__card--dark p {
-  color: rgba(255, 255, 255, 0.7);
+  color: #FFFFFF;
+  opacity: 0.9;
 }
 .hero__cards-row .hero__card {
   flex-direction: column;
