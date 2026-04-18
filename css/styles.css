@@ -2183,7 +2183,16 @@ a.contact__card-value:hover {
   .navbar__toggle { display: flex; }
 
   .hero { padding: 120px 0 60px; }
-  .hero__title { font-size: 2.25rem; }
+  .hero__content { text-align: center; }
+  .hero__title { font-size: 3rem; }
+  .hero__subtitle { margin-left: auto; margin-right: auto; }
+  .hero__actions { justify-content: center; }
+  .hero__platforms {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero__platforms-logos { justify-content: center; }
   .hero__cards-row { grid-template-columns: 1fr; }
 
   .section-title { font-size: 2rem; }
@@ -2204,10 +2213,9 @@ a.contact__card-value:hover {
 }
 
 @media (max-width: 480px) {
-  .hero__title { font-size: 1.875rem; }
+  .hero__title { font-size: 2.5rem; }
   .hero__actions { flex-direction: column; }
   .hero__actions .btn { width: 100%; }
-  .hero__platforms { flex-direction: column; align-items: flex-start; }
   .section-title { font-size: 1.75rem; }
   .platforms__others-list { flex-direction: column; align-items: center; }
 }
