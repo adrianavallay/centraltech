@@ -2192,6 +2192,7 @@ a.contact__card-value:hover {
     align-items: center;
     justify-content: center;
   }
+  .hero__platforms-label { font-size: 1rem; letter-spacing: 0.75px; }
   .hero__platforms-logos { justify-content: center; }
   .hero__cards-row { grid-template-columns: 1fr; }
 
